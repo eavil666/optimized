@@ -21,7 +21,7 @@ jobs:
         run: |
           # 安装系统依赖以确保lxml正确安装
           sudo apt-get update
-          sudo apt-get install -y libxml2-dev libxslt1-dev
+          sudo apt-get install -y libxml2-dev libxslt1-dev python3-dev build-essential
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
