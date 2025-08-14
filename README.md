@@ -36,9 +36,25 @@ optimized/
 
 安装过程中，`lxml` 库可能需要编译环境。我们提供以下几种安装方式：
 
-#### 方式 1: 使用安装脚本 (推荐)
+#### 方式 1: 使用专用 lxml 安装脚本 (推荐)
 
-我们提供了一个 PowerShell 脚本，可以帮助您自动安装依赖：
+我们提供了一个专门用于安装 lxml 的 PowerShell 脚本，可以自动处理 Windows 环境下的安装问题：
+
+```powershell
+# 以管理员身份运行 PowerShell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\install_lxml_windows.ps1
+```
+
+此脚本会：
+1. 更新 pip
+2. 安装 wheel
+3. 尝试直接安装 lxml
+4. 如果直接安装失败，会自动下载并安装预编译的 lxml wheel 文件
+
+#### 方式 2: 使用通用安装脚本
+
+我们还提供了一个通用的依赖安装脚本：
 
 ```powershell
 # 以管理员身份运行 PowerShell
