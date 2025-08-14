@@ -1,4 +1,12 @@
 requests==2.31.0
-lxml==4.9.3
+# Pin setuptools to avoid pkg_resources deprecation warning
+setuptools<81.0.0
+
+# Use a more recent version of lxml that might have better Windows support
+lxml>=4.9.3,<5.0.0
+
 fake-useragent==1.2.1
 dnspython==2.4.2
+
+# Note: On Windows, you may need to install Visual C++ Build Tools for lxml
+# https://visualstudio.microsoft.com/visual-cpp-build-tools/

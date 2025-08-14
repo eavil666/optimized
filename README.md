@@ -30,8 +30,65 @@ optimized/
 
 ## 依赖安装
 
+###  Windows 系统安装说明
+
+安装过程中，`lxml` 库可能需要编译环境。我们提供以下几种安装方式：
+
+#### 方式 1: 使用安装脚本 (推荐)
+
+我们提供了一个 PowerShell 脚本，可以帮助您自动安装依赖：
+
+```powershell
+# 以管理员身份运行 PowerShell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\install_dependencies.ps1
+```
+
+脚本提供两种选项：
+1. 标准安装 (需要 Visual C++ Build Tools)
+2. 使用预编译 wheel 安装 (无需 Build Tools)
+
+#### 方式 2: 手动安装
+
+##### 选项 A: 安装 Visual C++ Build Tools 后使用 pip
+
+1. 下载并安装 [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+2. 安装依赖：
+
 ```bash
 pip install -r requirements.txt
+```
+
+##### 选项 B: 使用预编译 wheel
+
+1. 首先安装 wheel 包：
+
+```bash
+pip install wheel
+```
+
+2. 安装 lxml 的预编译 wheel：
+
+```bash
+pip install --only-binary=lxml lxml>=4.9.3,<5.0.0
+```
+
+3. 安装剩余依赖：
+
+```bash
+pip install -r requirements.txt --no-deps
+```
+
+### macOS 和 Linux 系统
+
+```bash
+pip install -r requirements.txt
+
+# 对于 Debian/Ubuntu 系统，如果 lxml 安装失败，可能需要安装:
+# sudo apt-get install libxml2-dev libxslt1-dev
+
+# 对于 CentOS/RHEL 系统:
+# sudo yum install libxml2-devel libxslt-devel
 ```
 
 ## 使用方法
