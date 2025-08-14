@@ -2,6 +2,8 @@
 
 这是优化后的Cloudflare CDN裂变工具，用于IP反查域名和域名解析IP，适用于CDN节点分析和网站资产发现场景。
 
+本项目灵感来源于 <mcurl name="CloudflareCDNFission" url="https://github.com/snowfal1/CloudflareCDNFission"></mcurl>，在此表示感谢。
+
 ## 代码结构
 
 优化后的代码采用模块化设计，主要包含以下模块：
