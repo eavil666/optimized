@@ -99,15 +99,87 @@ pip install -r requirements.txt --no-deps
 
 ### macOS 和 Linux 系统
 
+#### 方式 1: 标准安装
+
 ```bash
+# 更新pip
+pip install --upgrade pip
+
+# 安装依赖
 pip install -r requirements.txt
-
-# 对于 Debian/Ubuntu 系统，如果 lxml 安装失败，可能需要安装:
-# sudo apt-get install libxml2-dev libxslt1-dev
-
-# 对于 CentOS/RHEL 系统:
-# sudo yum install libxml2-devel libxslt-devel
 ```
+
+#### 方式 2: 安装系统依赖后再安装
+
+如果直接安装失败，可能是因为缺少系统依赖。以下是不同Linux发行版的安装命令:
+
+##### Debian/Ubuntu 系统
+
+```bash
+# 更新系统包
+sudo apt-get update
+
+# 安装lxml所需的系统依赖
+sudo apt-get install -y libxml2-dev libxslt1-dev python3-dev build-essential
+
+# 安装依赖
+pip install -r requirements.txt
+```
+
+##### CentOS/RHEL 系统
+
+```bash
+# 安装lxml所需的系统依赖
+sudo yum install -y libxml2-devel libxslt-devel python3-devel gcc-c++
+
+# 安装依赖
+pip install -r requirements.txt
+```
+
+##### Fedora 系统
+
+```bash
+# 安装lxml所需的系统依赖
+sudo dnf install -y libxml2-devel libxslt-devel python3-devel gcc-c++
+
+# 安装依赖
+pip install -r requirements.txt
+```
+
+##### macOS 系统
+
+```bash
+# 使用Homebrew安装系统依赖
+brew install libxml2 libxslt
+
+# 设置环境变量以便pip能找到这些库
+export LDFLAGS="-L$(brew --prefix libxml2)/lib -L$(brew --prefix libxslt)/lib"
+export CFLAGS="-I$(brew --prefix libxml2)/include -I$(brew --prefix libxslt)/include"
+
+# 安装依赖
+pip install -r requirements.txt
+```
+
+#### 方式 3: 使用预编译wheel
+
+如果以上方法仍失败，可以尝试使用预编译wheel:
+
+```bash
+# 安装wheel
+pip install wheel
+
+# 安装lxml的预编译wheel
+pip install --only-binary=lxml lxml>=4.9.3,<5.0.0
+
+# 安装剩余依赖
+pip install -r requirements.txt --no-deps
+```
+
+#### 常见问题解决
+
+1. **编译错误**: 确保已安装所有必要的系统依赖和编译工具(gcc, g++等)
+2. **权限问题**: 使用sudo或以管理员身份运行命令
+3. **Python版本问题**: 确保使用的Python版本与项目兼容(推荐Python 3.8+)
 
 ## 使用方法
 
