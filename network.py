@@ -4,12 +4,12 @@ import concurrent.futures
 from typing import List, Set, Dict
 
 import requests
-from html.parser import HTMLParser
 from fake_useragent import UserAgent
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 from config import config
+from soup_parser import get_soup_parser
 
 
 class NetworkManager:
@@ -84,60 +84,9 @@ class NetworkManager:
             response.raise_for_status()
             html_content = response.text
 
-            # 使用HTMLParser解析HTML
-            class DomainParser(HTMLParser):
-                def __init__(self, xpath):
-                    super().__init__()
-                    self.domains = []
-                    self.current_ul_id = None
-                    self.current_div_id = None
-                    self.current_p_tag = False
-                    self.current_a_tag = False
-                    
-                    # 确定要提取的模式
-                    if 'ul[@id="list"]/li/a' in xpath:
-                        self.mode = 'ul_list'
-                    elif 'div[@id="J_domain"]/p/a' in xpath:
-                        self.mode = 'div_domain'
-                    else:
-                        self.mode = 'unknown'
-                        print(f"Warning: Unsupported XPath: {xpath}")
-
-                def handle_starttag(self, tag, attrs):
-                    if tag == 'ul':
-                        for attr, value in attrs:
-                            if attr == 'id' and value == 'list':
-                                self.current_ul_id = 'list'
-                                break
-                    elif tag == 'div':
-                        for attr, value in attrs:
-                            if attr == 'id' and value == 'J_domain':
-                                self.current_div_id = 'J_domain'
-                                break
-                    elif tag == 'p' and self.current_div_id == 'J_domain':
-                        self.current_p_tag = True
-                    elif tag == 'a':
-                        if (self.current_ul_id == 'list' and tag == 'a') or \
-                           (self.current_div_id == 'J_domain' and self.current_p_tag and tag == 'a'):
-                            self.current_a_tag = True
-                        
-                def handle_endtag(self, tag):
-                    if tag == 'ul' and self.current_ul_id == 'list':
-                        self.current_ul_id = None
-                    elif tag == 'div' and self.current_div_id == 'J_domain':
-                        self.current_div_id = None
-                    elif tag == 'p' and self.current_p_tag:
-                        self.current_p_tag = False
-                    elif tag == 'a' and self.current_a_tag:
-                        self.current_a_tag = False
-
-                def handle_data(self, data):
-                    if self.current_a_tag and data.strip():
-                        self.domains.append(data.strip())
-
-            parser = DomainParser(site_info.xpath)
-            parser.feed(html_content)
-            domains = parser.domains
+            # 使用BeautifulSoup解析HTML
+            parser = get_soup_parser()
+            domains = parser.parse_domains(html_content, site_info.xpath)
 
             if domains:
                 print(f"Successfully fetched domains for {ip_address} from {site_info.url}")

@@ -11,6 +11,7 @@ wheel>=0.41.2
 
 fake-useragent==1.2.1
 dnspython==2.4.2
+beautifulsoup4==4.12.2
 
 # Note: On Windows, you may need to install Visual C++ Build Tools for lxml
 # https://visualstudio.microsoft.com/visual-cpp-build-tools/
