@@ -2,16 +2,9 @@ requests==2.31.0
 # Pin setuptools to avoid pkg_resources deprecation warning
 setuptools<81.0.0
 
-# For Windows, use a pre-built wheel if available
-# This version has better compatibility with Windows
-lxml>=4.9.3,<5.0.0
-
 # Add wheel to help with installing pre-built packages
 wheel>=0.41.2
 
 fake-useragent==1.2.1
 dnspython==2.4.2
 beautifulsoup4==4.12.2
-
-# Note: On Windows, you may need to install Visual C++ Build Tools for lxml
-# https://visualstudio.microsoft.com/visual-cpp-build-tools/

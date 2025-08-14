@@ -32,74 +32,19 @@ optimized/
 
 ## 依赖安装
 
-###  Windows 系统安装说明
+### Windows 系统安装说明
 
-安装过程中，`lxml` 库可能需要编译环境。我们提供以下几种安装方式：
-
-#### 方式 1: 使用专用 lxml 安装脚本 (推荐)
-
-我们提供了一个专门用于安装 lxml 的 PowerShell 脚本，可以自动处理 Windows 环境下的安装问题：
+直接使用 pip 安装项目依赖：
 
 ```powershell
 # 以管理员身份运行 PowerShell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-.\install_lxml_windows.ps1
-```
-
-此脚本会：
-1. 更新 pip
-2. 安装 wheel
-3. 尝试直接安装 lxml
-4. 如果直接安装失败，会自动下载并安装预编译的 lxml wheel 文件
-
-#### 方式 2: 使用通用安装脚本
-
-我们还提供了一个通用的依赖安装脚本：
-
-```powershell
-# 以管理员身份运行 PowerShell
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-.\install_dependencies.ps1
-```
-
-脚本提供两种选项：
-1. 标准安装 (需要 Visual C++ Build Tools)
-2. 使用预编译 wheel 安装 (无需 Build Tools)
-
-#### 方式 2: 手动安装
-
-##### 选项 A: 安装 Visual C++ Build Tools 后使用 pip
-
-1. 下载并安装 [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-2. 安装依赖：
-
-```bash
 pip install -r requirements.txt
-```
-
-##### 选项 B: 使用预编译 wheel
-
-1. 首先安装 wheel 包：
-
-```bash
-pip install wheel
-```
-
-2. 安装 lxml 的预编译 wheel：
-
-```bash
-pip install --only-binary=lxml lxml>=4.9.3,<5.0.0
-```
-
-3. 安装剩余依赖：
-
-```bash
-pip install -r requirements.txt --no-deps
 ```
 
 ### macOS 和 Linux 系统
 
-#### 方式 1: 标准安装
+直接使用 pip 安装项目依赖：
 
 ```bash
 # 更新pip
@@ -109,77 +54,10 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-#### 方式 2: 安装系统依赖后再安装
-
-如果直接安装失败，可能是因为缺少系统依赖。以下是不同Linux发行版的安装命令:
-
-##### Debian/Ubuntu 系统
-
-```bash
-# 更新系统包
-sudo apt-get update
-
-# 安装lxml所需的系统依赖
-sudo apt-get install -y libxml2-dev libxslt1-dev python3-dev build-essential
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-##### CentOS/RHEL 系统
-
-```bash
-# 安装lxml所需的系统依赖
-sudo yum install -y libxml2-devel libxslt-devel python3-devel gcc-c++
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-##### Fedora 系统
-
-```bash
-# 安装lxml所需的系统依赖
-sudo dnf install -y libxml2-devel libxslt-devel python3-devel gcc-c++
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-##### macOS 系统
-
-```bash
-# 使用Homebrew安装系统依赖
-brew install libxml2 libxslt
-
-# 设置环境变量以便pip能找到这些库
-export LDFLAGS="-L$(brew --prefix libxml2)/lib -L$(brew --prefix libxslt)/lib"
-export CFLAGS="-I$(brew --prefix libxml2)/include -I$(brew --prefix libxslt)/include"
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-#### 方式 3: 使用预编译wheel
-
-如果以上方法仍失败，可以尝试使用预编译wheel:
-
-```bash
-# 安装wheel
-pip install wheel
-
-# 安装lxml的预编译wheel
-pip install --only-binary=lxml lxml>=4.9.3,<5.0.0
-
-# 安装剩余依赖
-pip install -r requirements.txt --no-deps
-```
-
 #### 常见问题解决
 
-1. **编译错误**: 确保已安装所有必要的系统依赖和编译工具(gcc, g++等)
-2. **权限问题**: 使用sudo或以管理员身份运行命令
-3. **Python版本问题**: 确保使用的Python版本与项目兼容(推荐Python 3.8+)
+1. **权限问题**: 使用sudo或以管理员身份运行命令
+2. **Python版本问题**: 确保使用的Python版本与项目兼容(推荐Python 3.8+)
 
 ## 使用方法
 
