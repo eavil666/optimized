@@ -95,34 +95,88 @@ pip install -r requirements.txt
 
 ## 使用方法
 
+本工具提供了灵活的命令行接口，支持IP反查域名和域名解析IP功能。以下是详细使用说明：
+
 ### 基本使用
 
+请确保在项目根目录下运行以下命令：
+
 ```bash
-python -m optimized.main
+# 直接运行主脚本
+python main.py
 ```
+
+> 注意：根据项目实际结构，main.py位于项目根目录下，而非optimized目录中。之前的模块方式运行命令`python -m optimized.main`可能无法正常工作，因为项目结构不支持这种方式。
+
+运行后，工具将依次执行IP反查域名和域名解析IP操作，并将结果保存到指定文件中。
+
+> 注意：如果使用方法2，请确保先进入optimized目录，否则可能会出现文件路径错误。
 
 ### 命令行参数
 
+工具支持以下命令行参数来自定义操作：
+
 ```
---ip-file          # IP列表文件路径 (默认: Fission_ip.txt)
---domain-file      # 域名列表文件路径 (默认: Fission_domain.txt)
---dns-result-file  # DNS查询结果文件路径 (默认: dns_result.txt)
---skip-ip-to-domain  # 跳过IP反查域名步骤
---skip-domain-to-ip  # 跳过域名解析IP步骤
+--ip-file <file_path>          # 指定IP列表文件路径（默认：Fission_ip.txt）
+--domain-file <file_path>      # 指定域名列表文件路径（默认：Fission_domain.txt）
+--dns-result-file <file_path>  # 指定DNS查询结果文件路径（默认：dns_result.txt）
+--skip-ip-to-domain            # 跳过IP反查域名步骤，仅执行域名解析IP操作
+--skip-domain-to-ip            # 跳过域名解析IP步骤，仅执行IP反查域名操作
+--max-workers-request <num>    # 设置HTTP请求最大并发数（默认：30）
+--max-workers-dns <num>        # 设置DNS查询最大并发数（默认：60）
+--timeout <seconds>            # 设置请求超时时间（默认：10秒）
+--retry-count <num>            # 设置请求失败重试次数（默认：3次）
 ```
 
-### 示例
+### 使用示例
+
+#### 1. 使用默认配置运行
 
 ```bash
-# 使用默认配置
-python -m optimized.main
-
-# 自定义IP和域名文件
-python -m optimized.main --ip-file my_ips.txt --domain-file my_domains.txt
-
-# 只执行域名解析IP步骤
-python -m optimized.main --skip-ip-to-domain
+python  main.py
 ```
+
+此命令将使用默认的IP和域名列表文件，执行完整的IP反查域名和域名解析IP操作。
+
+#### 2. 自定义IP和域名文件
+
+```bash
+python  main.py --ip-file my_ips.txt --domain-file my_domains.txt
+```
+
+使用自定义的IP列表文件`my_ips.txt`和域名列表文件`my_domains.txt`。
+
+#### 3. 只执行域名解析IP步骤
+
+```bash
+python  main.py --skip-ip-to-domain
+```
+
+跳过IP反查域名步骤，仅执行域名解析IP操作。
+
+#### 4. 只执行IP反查域名步骤
+
+```bash
+python  main.py --skip-domain-to-ip    
+```
+
+跳过域名解析IP步骤，仅执行IP反查域名操作。
+
+#### 5. 自定义输出文件
+
+```bash
+python  main.py --dns-result-file my_results.txt
+```
+
+将结果保存到自定义文件`my_results.txt`中。
+
+#### 6. 调整并发数和超时设置
+
+```bash
+python  main.py --max-workers-request 50 --max-workers-dns 100 --timeout 15
+```
+
+增加HTTP请求并发数到50，DNS查询并发数到100，设置请求超时时间为15秒。
 
 ## 配置说明
 
