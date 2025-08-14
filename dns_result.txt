@@ -1,0 +1,727 @@
+--- DNS Lookup for m.niuerzs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+m.niuerzs.com canonical name = m.niuerzs.com.
+Name: m.niuerzs.com
+Address: 208.98.40.37
+
+
+--- DNS Lookup for kj3456.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+kj3456.com canonical name = kj3456.com.
+Name: kj3456.com
+Address: 3.33.130.190, 15.197.148.33
+
+
+--- DNS Lookup for www.89yy.net ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.89yy.net canonical name = www.89yy.net.
+Name: www.89yy.net
+Address: 107.175.182.211
+
+
+--- DNS Lookup for bf3.effgijk.top ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find bf3.effgijk.top: NXDOMAIN
+Error: The DNS query name does not exist: bf3.effgijk.top.
+
+--- DNS Lookup for www.77zw.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.77zw.cc canonical name = www.77zw.cc.
+Name: www.77zw.cc
+Address: 104.16.46.2, 104.19.16.75, 104.18.36.111
+
+
+--- DNS Lookup for www.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.redgifs.com canonical name = www.redgifs.com.
+Name: www.redgifs.com
+Address: 162.125.18.133
+
+
+--- DNS Lookup for www.foodpanda.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.foodpanda.com canonical name = www.foodpanda.com.
+Name: www.foodpanda.com
+Address: 172.67.218.229, 104.21.35.111
+
+
+--- DNS Lookup for thcf3.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf3.redgifs.com canonical name = thcf3.redgifs.com.
+Name: thcf3.redgifs.com
+Address: 162.125.2.5
+
+
+--- DNS Lookup for www.deltek.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.deltek.com canonical name = www.deltek.com.
+Name: www.deltek.com
+Address: 104.18.4.207, 104.18.5.207
+
+
+--- DNS Lookup for jhpcza.66666654.xyz ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find jhpcza.66666654.xyz: NXDOMAIN
+Error: The DNS query name does not exist: jhpcza.66666654.xyz.
+
+--- DNS Lookup for www.hhyy028.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.hhyy028.com canonical name = www.hhyy028.com.
+Name: www.hhyy028.com
+Address: 104.16.239.55, 104.17.227.186, 104.21.198.40, 104.24.24.24, 104.24.150.70, 104.24.206.62, 104.26.4.250, 104.26.9.244, 104.27.86.215, 104.27.91.69
+
+
+--- DNS Lookup for som777.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+som777.com canonical name = som777.com.
+Name: som777.com
+Address: 104.20.34.164, 172.66.150.168
+
+
+--- DNS Lookup for www.99wx.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.99wx.cc canonical name = www.99wx.cc.
+Name: www.99wx.cc
+Address: 104.19.16.75, 104.18.36.111, 104.16.46.2
+
+
+--- DNS Lookup for www.75uw.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.75uw.com canonical name = www.75uw.com.
+Name: www.75uw.com
+Address: 23.225.148.166
+
+
+--- DNS Lookup for www.xzwksj.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.xzwksj.com canonical name = www.xzwksj.com.
+Name: www.xzwksj.com
+Address: 94.154.114.111
+
+
+--- DNS Lookup for 89yy.net ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+89yy.net canonical name = 89yy.net.
+Name: 89yy.net
+Address: 107.175.182.211
+
+
+--- DNS Lookup for idx.co.id ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+idx.co.id canonical name = idx.co.id.
+Name: idx.co.id
+Address: 104.18.5.207, 104.18.4.207
+
+
+--- DNS Lookup for thcf9.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf9.redgifs.com canonical name = thcf9.redgifs.com.
+Name: thcf9.redgifs.com
+Address: 162.125.32.2
+
+
+--- DNS Lookup for qw688.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find qw688.cc: NXDOMAIN
+Error: The DNS query name does not exist: qw688.cc.
+
+--- DNS Lookup for www.5522tl.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find www.5522tl.com: NXDOMAIN
+Error: The resolution lifetime expired after 5.205 seconds: Server Do53:28.0.0.2@53 answered The DNS operation timed out.; Server Do53:119.29.29.29@53 answered SERVFAIL; Server Do53:8.8.8.8@53 answered REFUSED; Server Do53:28.0.0.2@53 answered The DNS operation timed out.
+
+--- DNS Lookup for www.bjxuyun.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.bjxuyun.com canonical name = www.bjxuyun.com.
+Name: www.bjxuyun.com
+Address: 104.19.85.181, 104.16.190.178
+
+
+--- DNS Lookup for www.wn01.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.wn01.cc canonical name = www.wn01.cc.
+Name: www.wn01.cc
+Address: 37.48.65.136
+
+
+--- DNS Lookup for docker.jsdelivr.fyi ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+docker.jsdelivr.fyi canonical name = docker.jsdelivr.fyi.
+Name: docker.jsdelivr.fyi
+Address: 104.16.120.131
+
+
+--- DNS Lookup for www.cljxpg.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.cljxpg.com canonical name = www.cljxpg.com.
+Name: www.cljxpg.com
+Address: 104.16.190.178, 104.19.85.181
+
+
+--- DNS Lookup for www.whpaiger.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.whpaiger.com canonical name = www.whpaiger.com.
+Name: www.whpaiger.com
+Address: 208.98.40.35
+
+
+--- DNS Lookup for jei0.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+jei0.com canonical name = jei0.com.
+Name: jei0.com
+Address: 23.225.26.76
+
+
+--- DNS Lookup for www.tlbb888.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.tlbb888.com canonical name = www.tlbb888.com.
+Name: www.tlbb888.com
+Address: 156.224.122.4
+
+
+--- DNS Lookup for metrics.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+metrics.redgifs.com canonical name = metrics.redgifs.com.
+Name: metrics.redgifs.com
+Address: 162.125.32.5
+
+
+--- DNS Lookup for www.2020tl.cn ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.2020tl.cn canonical name = www.2020tl.cn.
+Name: www.2020tl.cn
+Address: 104.27.86.215, 104.27.91.69, 104.16.239.55, 104.17.227.186, 104.21.198.40, 104.24.24.24, 104.24.150.70, 104.24.206.62, 104.26.4.250, 104.26.9.244
+
+
+--- DNS Lookup for cf.cnmqq.tk ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find cf.cnmqq.tk: NXDOMAIN
+Error: The DNS query name does not exist: cf.cnmqq.tk.
+
+--- DNS Lookup for www.iios.club ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.iios.club canonical name = www.iios.club.
+Name: www.iios.club
+Address: 172.67.175.47, 104.16.190.223, 104.18.30.178, 104.19.111.202, 104.19.251.132
+
+
+--- DNS Lookup for m.pengquanjieshui.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+m.pengquanjieshui.com canonical name = m.pengquanjieshui.com.
+Name: m.pengquanjieshui.com
+Address: 104.16.190.178, 104.19.85.181
+
+
+--- DNS Lookup for hdf54.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find hdf54.com: NXDOMAIN
+Error: The DNS response does not contain an answer to the question: hdf54.com. IN A
+
+--- DNS Lookup for foodpanda.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+foodpanda.com canonical name = foodpanda.com.
+Name: foodpanda.com
+Address: 104.16.55.101, 104.16.54.101
+
+
+--- DNS Lookup for www.zzztch.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.zzztch.com canonical name = www.zzztch.com.
+Name: www.zzztch.com
+Address: 23.235.185.91
+
+
+--- DNS Lookup for www.75xs.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.75xs.cc canonical name = www.75xs.cc.
+Name: www.75xs.cc
+Address: 104.19.16.75, 104.18.36.111, 104.16.46.2
+
+
+--- DNS Lookup for www.yjys05.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.yjys05.com canonical name = www.yjys05.com.
+Name: www.yjys05.com
+Address: 155.102.23.6, 155.102.23.5, 155.102.23.4, 155.102.23.3, 155.102.23.2, 155.102.23.1, 155.102.23.8, 155.102.23.7
+
+
+--- DNS Lookup for www.x1d44.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.x1d44.com canonical name = www.x1d44.com.
+Name: www.x1d44.com
+Address: 162.209.175.126
+
+
+--- DNS Lookup for v4.9abcc.xyz ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+v4.9abcc.xyz canonical name = v4.9abcc.xyz.
+Name: v4.9abcc.xyz
+Address: 104.19.171.185, 104.16.144.227, 104.16.48.27, 104.18.160.141, 104.19.150.215, 172.64.229.243, 104.17.145.246, 104.19.9.227, 104.19.192.145, 172.64.52.227, 104.19.235.142
+
+
+--- DNS Lookup for www.nitianzw.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.nitianzw.com canonical name = www.nitianzw.com.
+Name: www.nitianzw.com
+Address: 104.18.4.207, 104.19.16.75, 104.16.118.106
+
+
+--- DNS Lookup for px.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+px.redgifs.com canonical name = px.redgifs.com.
+Name: px.redgifs.com
+Address: 162.125.32.13
+
+
+--- DNS Lookup for nlsdwsz.66666654.xyz ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find nlsdwsz.66666654.xyz: NXDOMAIN
+Error: The DNS query name does not exist: nlsdwsz.66666654.xyz.
+
+--- DNS Lookup for www.99wxw.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.99wxw.cc canonical name = www.99wxw.cc.
+Name: www.99wxw.cc
+Address: 104.16.118.106, 104.19.16.75, 104.18.4.207
+
+
+--- DNS Lookup for www.aikmha.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.aikmha.com canonical name = www.aikmha.com.
+Name: www.aikmha.com
+Address: 162.209.175.126
+
+
+--- DNS Lookup for thcf1.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf1.redgifs.com canonical name = thcf1.redgifs.com.
+Name: thcf1.redgifs.com
+Address: 108.160.163.102
+
+
+--- DNS Lookup for redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+redgifs.com canonical name = redgifs.com.
+Name: redgifs.com
+Address: 0.0.0.0
+
+
+--- DNS Lookup for www.qindi.net ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.qindi.net canonical name = www.qindi.net.
+Name: www.qindi.net
+Address: 104.16.46.2, 104.18.36.111, 104.19.16.75
+
+
+--- DNS Lookup for dsxys.pro ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+dsxys.pro canonical name = dsxys.pro.
+Name: dsxys.pro
+Address: 104.17.213.85
+
+
+--- DNS Lookup for www.nitianxieshen.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.nitianxieshen.com canonical name = www.nitianxieshen.com.
+Name: www.nitianxieshen.com
+Address: 104.19.16.75, 104.18.36.111, 104.16.46.2
+
+
+--- DNS Lookup for thcf5.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf5.redgifs.com canonical name = thcf5.redgifs.com.
+Name: thcf5.redgifs.com
+Address: 108.160.163.108
+
+
+--- DNS Lookup for thumbs.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thumbs.redgifs.com canonical name = thumbs.redgifs.com.
+Name: thumbs.redgifs.com
+Address: 31.13.68.169
+
+
+--- DNS Lookup for thumbs1.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thumbs1.redgifs.com canonical name = thumbs1.redgifs.com.
+Name: thumbs1.redgifs.com
+Address: 108.160.165.53
+
+
+--- DNS Lookup for x1d44.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+x1d44.com canonical name = x1d44.com.
+Name: x1d44.com
+Address: 162.209.175.126
+
+
+--- DNS Lookup for cf1.492745.xyz ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+cf1.492745.xyz canonical name = cf1.492745.xyz.
+Name: cf1.492745.xyz
+Address: 162.159.255.236, 172.67.80.188, 162.159.252.219, 104.16.116.171, 172.64.66.168, 172.67.197.0, 141.101.115.49, 141.101.122.25, 104.21.123.126, 172.67.136.64, 172.67.176.243, 172.67.134.194, 104.19.9.105, 141.101.122.111, 172.64.88.69
+
+
+--- DNS Lookup for siw.idx.co.id ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+siw.idx.co.id canonical name = siw.idx.co.id.
+Name: siw.idx.co.id
+Address: 104.18.5.207, 104.18.4.207
+
+
+--- DNS Lookup for thcf8.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf8.redgifs.com canonical name = thcf8.redgifs.com.
+Name: thcf8.redgifs.com
+Address: 162.125.32.9
+
+
+--- DNS Lookup for cdn.didi8.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find cdn.didi8.com: NXDOMAIN
+Error: The DNS query name does not exist: cdn.didi8.com.
+
+--- DNS Lookup for www.idx.co.id ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.idx.co.id canonical name = www.idx.co.id.
+Name: www.idx.co.id
+Address: 104.18.4.207, 104.18.5.207
+
+
+--- DNS Lookup for www.kj3456.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.kj3456.com canonical name = www.kj3456.com.
+Name: www.kj3456.com
+Address: 15.197.148.33, 3.33.130.190
+
+
+--- DNS Lookup for thcf4.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf4.redgifs.com canonical name = thcf4.redgifs.com.
+Name: thcf4.redgifs.com
+Address: 199.16.156.38
+
+
+--- DNS Lookup for www.tpyyc.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.tpyyc.com canonical name = www.tpyyc.com.
+Name: www.tpyyc.com
+Address: 104.18.36.111, 104.18.13.104, 104.19.0.147
+
+
+--- DNS Lookup for thcf7.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf7.redgifs.com canonical name = thcf7.redgifs.com.
+Name: thcf7.redgifs.com
+Address: 185.45.7.97
+
+
+--- DNS Lookup for www.993my.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find www.993my.com: NXDOMAIN
+Error: The DNS query name does not exist: www.993my.com.
+
+--- DNS Lookup for www.jei0.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.jei0.com canonical name = www.jei0.com.
+Name: www.jei0.com
+Address: 23.225.26.76
+
+
+--- DNS Lookup for www.zihuaku.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.zihuaku.com canonical name = www.zihuaku.com.
+Name: www.zihuaku.com
+Address: 104.19.85.181, 104.16.190.178
+
+
+--- DNS Lookup for api.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+api.redgifs.com canonical name = api.redgifs.com.
+Name: api.redgifs.com
+Address: 128.121.243.235
+
+
+--- DNS Lookup for www.93xscc.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.93xscc.com canonical name = www.93xscc.com.
+Name: www.93xscc.com
+Address: 104.19.16.75, 104.16.46.2, 104.18.36.111
+
+
+--- DNS Lookup for thcf6.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf6.redgifs.com canonical name = thcf6.redgifs.com.
+Name: thcf6.redgifs.com
+Address: 128.121.146.228
+
+
+--- DNS Lookup for kanmanhuala.cc ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+kanmanhuala.cc canonical name = kanmanhuala.cc.
+Name: kanmanhuala.cc
+Address: 104.17.77.165, 104.18.30.153, 104.19.143.249, 172.67.253.209, 104.16.190.185
+
+
+--- DNS Lookup for www.dzy66666.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find www.dzy66666.com: NXDOMAIN
+Error: The DNS query name does not exist: www.dzy66666.com.
+
+--- DNS Lookup for www.q2042.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.q2042.com canonical name = www.q2042.com.
+Name: www.q2042.com
+Address: 208.98.40.23
+
+
+--- DNS Lookup for www.lyzdzy.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.lyzdzy.com canonical name = www.lyzdzy.com.
+Name: www.lyzdzy.com
+Address: 208.98.40.38
+
+
+--- DNS Lookup for www.cfhuagong.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+www.cfhuagong.com canonical name = www.cfhuagong.com.
+Name: www.cfhuagong.com
+Address: 172.237.146.38, 172.237.146.25, 172.237.146.8, 172.233.219.49, 172.233.219.78, 172.233.219.123
+
+
+--- DNS Lookup for macvbb.555556789.xyz ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+** server can't find macvbb.555556789.xyz: NXDOMAIN
+Error: The DNS query name does not exist: macvbb.555556789.xyz.
+
+--- DNS Lookup for thcf2.redgifs.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+thcf2.redgifs.com canonical name = thcf2.redgifs.com.
+Name: thcf2.redgifs.com
+Address: 173.252.88.67
+
+
+--- DNS Lookup for m888h.com ---
+Server: Unspecified
+Address: 0.0.0.0#53
+
+Non-authoritative answer:
+m888h.com canonical name = m888h.com.
+Name: m888h.com
+Address: 76.223.67.189, 13.248.213.45
+
+

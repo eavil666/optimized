@@ -1,0 +1,39 @@
+2025-08-14 14:03:23,877 - INFO - Starting IP to domain lookup...
+2025-08-14 14:03:23,878 - WARNING - IP file not found: Fission_ip.txt. Creating empty file.
+2025-08-14 14:03:23,878 - WARNING - No IP addresses found. Skipping IP to domain lookup.
+2025-08-14 14:03:23,879 - INFO - Starting domain to IP lookup...
+2025-08-14 14:03:54,623 - INFO - Starting IP to domain lookup...
+2025-08-14 14:03:54,623 - WARNING - No IP addresses found. Skipping IP to domain lookup.
+2025-08-14 14:03:54,624 - INFO - Starting domain to IP lookup...
+2025-08-14 14:03:54,624 - INFO - Domain to IP lookup completed.
+2025-08-14 14:03:54,624 - INFO - Program execution completed.
+2025-08-14 14:04:56,617 - INFO - Starting IP to domain lookup...
+2025-08-14 14:04:56,618 - INFO - Found 1 IP addresses to process.
+2025-08-14 14:04:57,380 - INFO - Found 2 new domains from IP lookup.
+2025-08-14 14:04:57,381 - INFO - Found 0 existing domains.
+2025-08-14 14:04:57,381 - INFO - Total unique domains after merging: 2
+2025-08-14 14:04:57,382 - INFO - Saved 2 domains to Fission_domain.txt
+2025-08-14 14:04:57,382 - INFO - IP to domain lookup completed.
+2025-08-14 14:04:57,382 - INFO - Starting domain to IP lookup...
+2025-08-14 14:04:59,987 - INFO - Domain to IP lookup completed.
+2025-08-14 14:04:59,987 - INFO - Program execution completed.
+2025-08-14 14:05:41,920 - INFO - Starting IP to domain lookup...
+2025-08-14 14:05:41,920 - INFO - Found 4 IP addresses to process.
+2025-08-14 14:05:52,052 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000250959902D0>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.19.16.75/
+2025-08-14 14:05:52,052 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002509597E120>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.18.149.252/
+2025-08-14 14:06:02,721 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095903110>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.19.16.75/
+2025-08-14 14:06:02,721 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095902D50>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.18.149.252/
+2025-08-14 14:06:13,991 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095903890>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.19.16.75/
+2025-08-14 14:06:13,991 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000250959034D0>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.18.149.252/
+2025-08-14 14:06:26,463 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095902E90>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.18.149.252/
+2025-08-14 14:06:26,463 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095990690>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.19.16.75/
+2025-08-14 14:06:41,328 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095990B90>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.19.16.75/
+2025-08-14 14:06:41,328 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025095990A50>, 'Connection to dnsdblookup.com timed out. (connect timeout=10)')': /104.18.149.252/
+2025-08-14 14:06:52,332 - INFO - Found 76 new domains from IP lookup.
+2025-08-14 14:06:52,333 - INFO - Found 2 existing domains.
+2025-08-14 14:06:52,333 - INFO - Total unique domains after merging: 76
+2025-08-14 14:06:52,334 - INFO - Saved 76 domains to Fission_domain.txt
+2025-08-14 14:06:52,334 - INFO - IP to domain lookup completed.
+2025-08-14 14:06:52,334 - INFO - Starting domain to IP lookup...
+2025-08-14 14:06:57,582 - INFO - Domain to IP lookup completed.
+2025-08-14 14:06:57,582 - INFO - Program execution completed.
