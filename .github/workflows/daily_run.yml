@@ -3,13 +3,18 @@ name: Daily Run
 on:
   schedule:
     - cron: '0 0 * * *'  # 每天UTC时间0点运行
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:       # 允许手动触发
+
 permissions:
-  contents: write
+  contents: write         # 仓库级别的默认权限，对整个工作流生效
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    # 为此Job添加权限配置 (方法一的核心修改)
+    permissions:
+      contents: write    # 保留你已有的contents权限
+      actions: write     # 新增删除工作流运行所需的权限
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
